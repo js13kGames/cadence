@@ -1,0 +1,25 @@
+{
+  "name": "js13k-2026-unicorn",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --dev",
+    "serve": "npx --yes serve dist",
+    "size": "node size.mjs",
+    "bench": "node bench.mjs",
+    "test": "node bench.mjs --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ect-bin": "^1.4.1",
+    "esbuild": "^0.28.2",
+    "html-minifier-terser": "^7.2.0",
+    "roadroller": "^2.1.0",
+    "terser": "^5.51.2"
+  },
+  "type": "module",
+  "private": true
+}
